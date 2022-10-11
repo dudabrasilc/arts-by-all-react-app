@@ -7,3 +7,9 @@
   border-bottom: 1px solid #e2e2e2;
   margin-bottom: 40px;
 }
+
+body {
+  margin: 20px;
+  font-family: 'Poppins';
+  color: #333;
+}
