@@ -13,3 +13,7 @@ body {
   font-family: 'Poppins';
   color: #333;
 }
+
+nav h1 {
+  margin-right: auto;
+}
