@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=VT323&display=swap');
+
 .nav {
   display: flex;
   gap: 10px;
@@ -17,3 +19,23 @@ body {
 nav h1 {
   margin-right: auto;
 }
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a {
+  color: rgb(3, 196, 154);
+}
+
+img {
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 50%;
+}
+
+nav h1 {
+  margin-right: auto;
+}
+
