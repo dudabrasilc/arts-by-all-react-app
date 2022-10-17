@@ -16,4 +16,11 @@ function DisplayArt({ arts }) {
   let matchedObj = matched[0]
   console.log(matchedObj)
 
+  return (
+    <div className="card">
+      <img src={matchedObj.image} alt="image" />
+      <h2>{matchedObj.name}</h2>
+      <p>By: {matchedObj.artist}</p>
+    </div>
+  )
 }
