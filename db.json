@@ -1,0 +1,13 @@
+{
+  "arts": [
+    {
+      "id": 1,
+      "name": "Mandala",
+      "artist": "Maria Coitinho",
+      "image": "https://i.pinimg.com/564x/6a/15/c5/6a15c510d87f697c5a939668baa744ac.jpg",
+      "year": 2015,
+      "style": "Ink drawing",
+      "comment": ""
+    }
+  ]
+}  
