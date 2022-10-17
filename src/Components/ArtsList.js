@@ -4,7 +4,6 @@ import DisplayArt from "./DisplayArt";
 
 function ArtsList({ arts }) {
   const match = useRouteMatch()
-  // console.log(match)
 
   console.log(arts)
 
@@ -19,5 +18,16 @@ function ArtsList({ arts }) {
     )
   })
 
+  return (
+    <>
+    <h2>Click an art for more details!</h2>
+    <ul className="cards">
+      {artsArray}
+    </ul>
+    </>
+  )
+
 }
+
+export default ArtsList;
 
