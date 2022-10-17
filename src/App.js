@@ -31,6 +31,8 @@ return (
         <h1>Arts By All</h1>
         <NavLink activeClassName="active" exact to="/">Home</NavLink>
         <NavLink activeClassName="active" exact to="/About">About</NavLink>
+        <NavLink activeClassName="active" exact to="/Arts">Arts</NavLink>
+        <NavLink activeClassName="active" exact to="/Contribute">Contribute</NavLink>
       </nav>
     </BrowserRouter>
   </div>
