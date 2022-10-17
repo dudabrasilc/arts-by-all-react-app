@@ -17,5 +17,5 @@ function ArtsPage({ arts }) {
     </Switch>
   )
 }
-////test
+
 export default ArtsPage;
