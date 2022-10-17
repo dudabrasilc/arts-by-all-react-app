@@ -8,6 +8,51 @@
       "year": 2015,
       "style": "Ink drawing",
       "comment": ""
+    },
+    {
+      "id": 2,
+      "name": "Telescope",
+      "artist": "Maria Coitinho",
+      "image": "https://i.pinimg.com/750x/67/b7/83/67b7835cc5f5124edcb278dbd3dfebd8.jpg",
+      "year": 2014,
+      "style": "Ink drawing",
+      "comment": ""
+    },
+    {
+      "id": 3,
+      "name": "Wavy Fries",
+      "artist": "Maria Coitinho",
+      "image": "https://i.pinimg.com/564x/86/8a/42/868a426b34f966ea39e06b71dc2b3008.jpg",
+      "year": 2017,
+      "style": "Ink drawing",
+      "comment": ""
+    },
+    {
+      "id": 4,
+      "name": "Sanfona",
+      "artist": "Maria Coitinho",
+      "image": "https://i.pinimg.com/564x/61/2b/b7/612bb71c150f827dd3ec4488a5cc4844.jpg",
+      "year": 2015,
+      "style": "Pencil drawing",
+      "comment": ""
+    },
+    {
+      "id": 5,
+      "name": "Smashed Burger",
+      "artist": "Maria Coitinho",
+      "image": "https://i.pinimg.com/564x/45/c0/9d/45c09ddd976b095142fc863e67c769bb.jpg",
+      "year": 2017,
+      "style": "Ink drawing",
+      "comment": ""
+    },
+    {
+      "name": "Mandala Illustration",
+      "artist": "Thieny Buckowski",
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4ecce128611325.55c9506b8c62c.png",
+      "id": 6,
+      "year": 2015,
+      "style": "Ink drawing",
+      "comment": ""
     }
   ]
 }  
