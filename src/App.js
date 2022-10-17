@@ -12,5 +12,9 @@ import Contribute from './components/Contribute';
 function App() {
   const [arts, setArts] = useState([])
 
-  
+  useEffect(() => {
+    fetch(`http://localhost:3000/arts`)
+    .then(r => r.json())
+    .then(artsdata => setArts(artsdata))
+  }, [])
 }
