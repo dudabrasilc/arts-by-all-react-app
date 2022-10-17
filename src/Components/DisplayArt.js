@@ -21,6 +21,10 @@ function DisplayArt({ arts }) {
       <img src={matchedObj.image} alt="image" />
       <h2>{matchedObj.name}</h2>
       <p>By: {matchedObj.artist}</p>
+      <p>Drawing style: {matchedObj.style}</p>
+      <p>Year: {matchedObj.year}</p> 
     </div>
   )
 }
+
+export default DisplayArt;
