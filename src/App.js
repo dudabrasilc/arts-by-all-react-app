@@ -23,4 +23,16 @@ function App() {
     const newArtsArray=[...arts, newArt]
     setArts(newArtsArray)
   }
+
+return (
+  <div className="App">
+    <BrowserRouter>
+      <nav className='nav'>
+        <h1>Arts By All</h1>
+        <NavLink activeClassName="active" exact to="/">Home</NavLink>
+        <NavLink activeClassName="active" exact to="/About">About</NavLink>
+      </nav>
+    </BrowserRouter>
+  </div>
+)
 }
