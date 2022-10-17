@@ -39,6 +39,12 @@ return (
       <Route exact path="/">
         <Home />
       </Route>
+      <Route path="/About">
+        <About />
+      </Route>
+      <Route path="/Arts">
+        <ArtsPage arts={arts} />
+      </Route>
     </Switch>
   </div>
 )
