@@ -35,6 +35,11 @@ return (
         <NavLink activeClassName="active" exact to="/Contribute">Contribute</NavLink>
       </nav>
     </BrowserRouter>
+    <Switch>
+      <Route exact path="/">
+        <Home />
+      </Route>
+    </Switch>
   </div>
 )
 }
