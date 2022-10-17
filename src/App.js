@@ -45,6 +45,9 @@ return (
       <Route path="/Arts">
         <ArtsPage arts={arts} />
       </Route>
+      <Route path="/Contribute">
+          <Contribute addArt={addArt}/>
+        </Route>
     </Switch>
   </div>
 )
