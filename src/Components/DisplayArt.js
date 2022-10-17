@@ -6,5 +6,14 @@ function DisplayArt({ arts }) {
   console.log(params)
 
   console.log(arts)
+  
+  const matched = arts.filter(art => {
+    // console.log(art.id)
+    // console.log(params.artId)
+    return params.artName === art.name
+  })
+  console.log(matched)
+  let matchedObj = matched[0]
+  console.log(matchedObj)
 
 }
