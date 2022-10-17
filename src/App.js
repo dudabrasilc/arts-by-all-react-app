@@ -17,4 +17,10 @@ function App() {
     .then(r => r.json())
     .then(artsdata => setArts(artsdata))
   }, [])
+
+  function addArt(newArt) {
+    console.log(newArt)
+    const newArtsArray=[...arts, newArt]
+    setArts(newArtsArray)
+  }
 }
