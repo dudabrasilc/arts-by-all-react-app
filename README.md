@@ -23,3 +23,14 @@ Once a user clicks on the Arts link, an art collection is rendered:
 ADD
 If a user clicks on top of an art card, more details about that art will be displayed:
 ADD
+
+### Contribute
+The contribute link renders a form which the user can upload an art filling up the requested information and submit:
+ADD
+Once the art is submitted, the user is able to check the art clicking on the Arts link that takes to the art collection:
+ADD
+
+
+## Support
+For any questions related to the project's functionality, code, or usage, please reach out to:  
+brasildu@gmail.com
