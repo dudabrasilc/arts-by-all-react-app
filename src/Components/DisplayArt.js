@@ -8,8 +8,6 @@ function DisplayArt({ arts }) {
   console.log(arts)
   
   const matched = arts.filter(art => {
-    // console.log(art.id)
-    // console.log(params.artId)
     return params.artName === art.name
   })
   console.log(matched)

@@ -7,7 +7,7 @@
       "image": "https://i.pinimg.com/564x/6a/15/c5/6a15c510d87f697c5a939668baa744ac.jpg",
       "year": 2015,
       "style": "Ink drawing",
-      "comment": ""
+      "decription": "Drawing on heavy pastel sketch paper with nankin pen 0.35mm and 0.30mm."
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "image": "https://i.pinimg.com/750x/67/b7/83/67b7835cc5f5124edcb278dbd3dfebd8.jpg",
       "year": 2014,
       "style": "Ink drawing",
-      "comment": ""
+      "description": "Drawing on heavy white sketch paper with nankin pen 0.35mm and 0.30mm."
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "image": "https://i.pinimg.com/564x/86/8a/42/868a426b34f966ea39e06b71dc2b3008.jpg",
       "year": 2017,
       "style": "Ink drawing",
-      "comment": ""
+      "description": "Drawing on heavy pastel sketch paper with nankin pen 0.50mm and 1.0mm."
     },
     {
       "id": 4,
@@ -34,16 +34,16 @@
       "image": "https://i.pinimg.com/564x/61/2b/b7/612bb71c150f827dd3ec4488a5cc4844.jpg",
       "year": 2015,
       "style": "Pencil drawing",
-      "comment": ""
+      "description": "Drawing with 0.5mm pencil on white thin hot press paper."
     },
     {
       "id": 5,
       "name": "Smashed Burger",
       "artist": "Maria Coitinho",
-      "image": "https://i.pinimg.com/564x/45/c0/9d/45c09ddd976b095142fc863e67c769bb.jpg",
+      "image": "https://i.pinimg.com/originals/4c/2b/fd/4c2bfd9e5b3785d9b5bcfda310b26c2b.jpg",
       "year": 2017,
       "style": "Ink drawing",
-      "comment": ""
+      "description": "Drawing on heavy pastel sketch paper with nankin pen 0.50mm and 1.0mm."
     },
     {
       "name": "Mandala Illustration",
@@ -52,7 +52,7 @@
       "id": 6,
       "year": 2015,
       "style": "Ink drawing",
-      "comment": ""
+      "description": ""
     }
   ]
-}  
+}

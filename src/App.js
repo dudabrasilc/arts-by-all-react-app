@@ -32,21 +32,21 @@ function App() {
           <NavLink activeClassName="active" exact to="/Arts">Arts</NavLink>
           <NavLink activeClassName="active" exact to="/Contribute">Contribute</NavLink>
         </nav>
-      </BrowserRouter>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/About">
-          <About />
-        </Route>
-        <Route path="/Arts">
-          <ArtsPage arts={arts} />
-        </Route>
-        <Route path="/Contribute">
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/About">
+            <About />
+          </Route>
+          <Route path="/Arts">
+            <ArtsPage arts={arts} />
+          </Route>
+          <Route path="/Contribute">
             <Contribute addArt={addArt}/>
           </Route>
-      </Switch>
+        </Switch>
+      </BrowserRouter>
     </div>
   )
 }

@@ -42,9 +42,9 @@ function Contribute({ addArt }) {
       addArt(newArt)
       setSubmitted("Your art was submitted!")
       setCheckArt("To see your art in the collection, navigate to the Arts tab.")
-    })
+    })  
   }
-
+    
   return (
     <div className="form-style-8">
       <h2>Contribute to our Art Collection</h2>
@@ -55,7 +55,7 @@ function Contribute({ addArt }) {
         <input type="text" name="image" placeholder="Image" value={formData.image} onChange={handleChange}/>
         <input type="text" name="description" placeholder="Description" value={formData.description} onChange={handleChange}/>
         <input type="number" min={0} max={new Date().getFullYear()} name="year" placeholder="Year" value={formData.year} onChange={handleChange}/>
-        <select value="" onChange={handleChange}>
+        <select value={formData.style} name="style" onChange={handleChange}>
           <option value="Pencil drawing">Pencil drawing</option>
           <option value="Ink drawing">Ink drawing</option>
           <option value="Pen drawing">Pen drawing</option>
