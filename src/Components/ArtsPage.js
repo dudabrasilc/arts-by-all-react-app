@@ -11,7 +11,7 @@ function ArtsPage({ arts }) {
       <Route exact path='/Arts'>
         <ArtsList arts={ arts } />
       </Route>
-      <Route path={`${match.url}/:artName`}>
+      <Route exact path={`${match.url}/:artName`}>
         <DisplayArt arts={ arts } />
       </Route>
     </Switch>

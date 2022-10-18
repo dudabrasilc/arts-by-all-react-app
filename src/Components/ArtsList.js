@@ -20,7 +20,7 @@ function ArtsList({ arts }) {
 
   return (
     <>
-    <h2>Click an art for more details!</h2>
+    <h2 className="header-list">Click an art for more details!</h2>
     <ul className="cards">
       {artsArray}
     </ul>
