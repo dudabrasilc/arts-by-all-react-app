@@ -12,17 +12,12 @@ To have direct access to the webpage, just click on the link:
 ADD
   
 ### Navigating
-Once the web page is loaded, a user should be able to see the following:
-![](home.gif)
-There are 4 navbar links on the top right of the page which the user can interact with to render different types of content:
-ADD
-
+There are 4 navbar links on the top right of the page which the user can interact with to render different types of content. Once the web page is loaded, the user will be able to see:  
+![](home.gif).  
 
 ### Arts collection
-Once a user clicks on the Arts link, an art collection is rendered:
-ADD
-If a user clicks on top of an art card, more details about that art will be displayed:
-ADD
+Once the user clicks on the Arts link, an art collection is rendered. If the user clicks on top of an art card, more details about the art will be displayed:
+![](art-collection.gif). 
 
 ### Contribute
 The contribute link renders a form which the user can upload an art filling up the requested information and submit:
