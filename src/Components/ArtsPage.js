@@ -4,7 +4,7 @@ import DisplayArt from "./DisplayArt.js";
 
 function ArtsPage({ arts }) {
   const match = useRouteMatch()
-  
+
   return (
     <Switch>
       <Route exact path='/Arts'>
