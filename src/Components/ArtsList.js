@@ -1,5 +1,4 @@
 import { Link, useRouteMatch, Route, Switch } from 'react-router-dom';
-import React from 'react';
 import ArtCard from "./ArtCard";
 import DisplayArt from "./DisplayArt";
 

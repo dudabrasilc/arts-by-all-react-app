@@ -1,5 +1,4 @@
 import { Route, useRouteMatch, Switch } from "react-router-dom";
-import React from 'react';
 import ArtsList from "./ArtsList.js";
 import DisplayArt from "./DisplayArt.js";
 

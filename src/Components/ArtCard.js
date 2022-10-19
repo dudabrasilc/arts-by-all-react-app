@@ -1,4 +1,3 @@
-import React from 'react';
 
 function ArtCard({ name, image }) { 
   return (
