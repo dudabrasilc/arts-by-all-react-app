@@ -5,8 +5,8 @@ function Contribute({ addArt }) {
     name: "",
     artist: "",
     image: "",
-    year: "2022",
-    style: "",
+    year: "",
+    style: "none",
     description: ""
   })
   const [submitted, setSubmitted] = useState("")
@@ -56,6 +56,7 @@ function Contribute({ addArt }) {
         <input type="text" name="description" placeholder="Description" value={formData.description} onChange={handleChange}/>
         <input type="number" min={0} max={new Date().getFullYear()} name="year" placeholder="Year" value={formData.year} onChange={handleChange}/>
         <select value={formData.style} name="style" onChange={handleChange}>
+          <option value="none">Select drawing style</option>
           <option value="Pencil drawing">Pencil drawing</option>
           <option value="Ink drawing">Ink drawing</option>
           <option value="Pen drawing">Pen drawing</option>
