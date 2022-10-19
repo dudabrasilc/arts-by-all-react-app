@@ -71,7 +71,7 @@ function Contribute({ addArt }) {
         <p className="submitted">{checkArt}</p>
       </form>
     </div>
-  );
+  )
 }
 
 export default Contribute;
