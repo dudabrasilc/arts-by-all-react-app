@@ -20,11 +20,9 @@ Once the user clicks on the Arts link, an art collection is rendered. If the use
 ![](arts.gif). 
 
 ### Contribute
-The contribute link renders a form which the user can upload an art filling up the requested information and submit:
-ADD
-Once the art is submitted, the user is able to check the art clicking on the Arts link that takes to the art collection:
-ADD
-
+The contribute link renders a form which the user can upload an art filling up the requested information and submit:  
+![](contribute.gif). 
+Once the art is submitted, the user is able to check the art clicking on the Arts link that takes to the art collection.  
 
 ## Support
 For any questions related to the project's functionality, code, or usage, please reach out to:  
