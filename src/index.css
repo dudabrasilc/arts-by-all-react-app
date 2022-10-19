@@ -67,6 +67,10 @@ img {
   list-style: none;
   margin: 2rem;
   text-align: center;
+  display: inline;
+  min-width: 696px;
+	list-style: none;
+	padding-top: 20px;;
 }
 
 .card {
