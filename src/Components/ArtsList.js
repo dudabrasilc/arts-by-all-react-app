@@ -5,9 +5,6 @@ import DisplayArt from "./DisplayArt";
 function ArtsList({ arts }) {
   const match = useRouteMatch()
 
-  console.log(arts)
-
-  
   const artsArray = arts.map(art => {
     return (
       <li key={art.id}>
@@ -20,14 +17,12 @@ function ArtsList({ arts }) {
 
   return (
     <>
-    <h2 className="header-list">Click an art for more details!</h2>
-    <ul className="cards">
-      {artsArray}
-    </ul>
+      <h2 className="header-list">Click an art for more details!</h2>
+      <ul className="cards">
+        {artsArray}
+      </ul>
     </>
   )
-
 }
 
 export default ArtsList;
-
