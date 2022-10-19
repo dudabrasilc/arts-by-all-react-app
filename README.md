@@ -6,6 +6,9 @@ Arts By All is a single page web application created with React. It is an open s
 -Packages:
 $ npm install
 
+-JSON server:
+$ npm install -g json-server
+
 -React Router:
 $ npm install react-router-dom@5
 
