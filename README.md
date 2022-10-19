@@ -2,6 +2,14 @@
 
 Arts By All is a single page web application created with React. It is an open source art collection where you can explore and upload arts, contributing to the collection.
 
+## Dependencies
+-Packages:
+$ npm install
+
+-React Router:
+$ npm install react-router-dom@5
+
+
 ## Usage
 This project utilizes client-side routing, making the user able to interact with links to change URLs and have the UI updated. Along with it, a form is made avaible to the user through the Contribute link, in order to upload arts that will be added to the art collection
   
