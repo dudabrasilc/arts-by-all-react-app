@@ -17,7 +17,7 @@ There are 4 navbar links on the top right of the page which the user can interac
 
 ### Arts collection
 Once the user clicks on the Arts link, an art collection is rendered. If the user clicks on top of an art card, more details about the art will be displayed:
-![](art-collection.gif). 
+![](arts.gif). 
 
 ### Contribute
 The contribute link renders a form which the user can upload an art filling up the requested information and submit:
