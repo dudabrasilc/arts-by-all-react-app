@@ -9,6 +9,11 @@ $ npm install
 -JSON server:
 $ npm install -g json-server
 
+Make sure to have the script in package.json file --> "server": "json-server --watch db.json --port 3004"
+Then type on terminal:
+$ npm run server
+
+
 -React Router:
 $ npm install react-router-dom@5
 
